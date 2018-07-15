@@ -1,0 +1,8 @@
+com\bbc\runner\RegisterBBCRunner.class
+com\bbc\stepdefinition\RegisterBBCStepDefn.class
+com\bbc\runner\SignInAndCommentArticleRunner.class
+com\bbc\stepdefinition\BackgroundAction.class
+com\bbc\runner\SearchBBCArticleRunner.class
+com\bbc\stepdefinition\Hooks.class
+com\bbc\stepdefinition\SearchBBCArticleStepDefn.class
+com\bbc\stepdefinition\SignInCommentArticleStepDefn.class

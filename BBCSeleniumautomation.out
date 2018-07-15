@@ -1,0 +1,32 @@
+2018-07-15 18:23:08 INFO  TestBase:118 - Launching the URL
+2018-07-15 18:23:29 INFO  TestBase:61 - Switching to Comments Frame
+2018-07-15 18:23:32 INFO  TestBase:67 - Clicking Register
+2018-07-15 18:23:32 INFO  TestBase:70 - Switching default Content
+2018-07-15 18:23:32 INFO  TestBase:76 - Retrieving Register Page Title
+2018-07-15 18:23:32 INFO  TestBase:78 - Asserting Register Page Title
+2018-07-15 18:23:36 INFO  TestBase:87 - Selecting appropriate age for Registration purpose
+2018-07-15 18:23:36 INFO  TestBase:94 - Entering date - day value 
+2018-07-15 18:23:40 INFO  TestBase:100 - Entering date - Month value 
+2018-07-15 18:23:43 INFO  TestBase:106 - Entering date - Year value 
+2018-07-15 18:23:50 INFO  TestBase:116 - Entering Email address
+2018-07-15 18:23:54 INFO  TestBase:122 - Entering Password
+2018-07-15 18:23:58 INFO  TestBase:128 - Entering Postcode
+2018-07-15 18:24:01 INFO  TestBase:134 - Entering Gender
+2018-07-15 18:24:02 INFO  TestBase:139 - Selecting Email Updates Options
+2018-07-15 18:24:08 INFO  TestBase:145 - Register with the email details
+2018-07-15 18:24:11 INFO  TestBase:153 - Verifying Whether the Registration is successful or not
+2018-07-15 18:24:11 INFO  TestBase:156 - BBC Registration is Successful : BBC – Register – thank you
+2018-07-15 18:24:12 INFO  TestBase:170 - Entering Display Name
+2018-07-15 18:24:16 INFO  TestBase:175 - Submitting Display Name
+2018-07-15 18:24:41 INFO  TestBase:118 - Launching the URL
+2018-07-15 18:25:03 INFO  TestBase:45 - Switching to Comments Frame to click Sign In button
+2018-07-15 18:25:04 INFO  TestBase:50 - Clicking BBC-SignIn button
+2018-07-15 18:25:05 INFO  TestBase:58 - Verifying BBC Sign In Page Title
+2018-07-15 18:25:09 INFO  TestBase:67 - Sign In - Entering Username
+2018-07-15 18:25:12 INFO  TestBase:73 - Sign In - Entering Password
+2018-07-15 18:25:13 INFO  TestBase:79 - Clicking SignIn button for Login
+2018-07-15 18:25:26 INFO  TestBase:111 - BBC SignIn Process is Successful : BBC Blogs - Test Blog - Lorem Ipsum dolar mit
+2018-07-15 18:25:27 INFO  TestBase:105 - Clicking Comments
+2018-07-15 18:25:51 INFO  TestBase:41 - Adding Comments in the article
+2018-07-15 18:26:00 INFO  TestBase:47 - Clicking Post Comment
+2018-07-15 18:26:25 INFO  TestBase:60 - Clicking Signout

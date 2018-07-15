@@ -1,0 +1,19 @@
+<suite name="BBC Functional AutomationSuite">
+	
+		<listeners>
+		<listener class-name="com.bbc.reports.TestReporter" />
+		</listeners>
+	
+	<test name="BBC Articles Comments Functional TestSuite">
+		
+		<classes>
+
+			<class
+					name="com.bbc.runner.RegisterBBCRunner" />
+			<class
+					name="com.bbc.runner.SignInAndCommentArticleRunner"/>
+          </classes>
+          
+	</test>
+
+</suite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BBC Functional AutomationSuite]">
+  <listeners>
+    <listener class-name="com.bbc.reports.TestReporter"/>
+  </listeners>
+  <test name="BBC Articles Comments Functional TestSuite">
+    <classes>
+      <class name="com.bbc.runner.RegisterBBCRunner"/>
+      <class name="com.bbc.runner.SignInAndCommentArticleRunner"/>
+    </classes>
+  </test> <!-- BBC Articles Comments Functional TestSuite -->
+</suite> <!-- Failed suite [BBC Functional AutomationSuite] -->

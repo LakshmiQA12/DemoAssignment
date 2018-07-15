@@ -1,0 +1,164 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: Lakshmi"
+      },
+      {
+        "line": 2,
+        "value": "#Summary : Register New User to sign in BBC"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "line": 5,
+        "name": "User launches BBC Site",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 16930695885,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": ":  User is navigated to BBC News Articles Comments Page",
+            "match": {
+              "location": "BackgroundAction.user_is_navigated_to_BBC_News_Articles_Comments_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1573183491,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": ": User clicks on Comments",
+            "match": {
+              "location": "BackgroundAction.user_clicks_on_Comments()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1733357,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "User navigates to  BBC News Articles Comments Section and doing the Registration process",
+        "description": "",
+        "id": "comment-bbc-news-articles-feature;user-navigates-to--bbc-news-articles-comments-section-and-doing-the-registration-process",
+        "after": [
+          {
+            "result": {
+              "duration": 1799489592,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22411814001,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": ": User clicks Register in BBC News Articles Comments Page",
+            "match": {
+              "location": "RegisterBBCStepDefn.user_clicks_Register_in_BBC_News_Articles_Comments_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19814976,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": ": User is in Registration Page",
+            "match": {
+              "location": "RegisterBBCStepDefn.user_is_in_Registration_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4092722856,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": ": User clicks the appropriate age selection",
+            "match": {
+              "location": "RegisterBBCStepDefn.user_clicks_the_appropriate_age_selection()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 49966504117,
+              "status": "passed"
+            },
+            "output": [
+              "Finished Scenario"
+            ],
+            "line": 15,
+            "name": ":  User starts the Registration process",
+            "match": {
+              "location": "RegisterBBCStepDefn.user_starts_the_Registration_process(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Day",
+                  "Month",
+                  "Year",
+                  "Email",
+                  "Password",
+                  "Postcode",
+                  "Gender"
+                ],
+                "line": 16
+              },
+              {
+                "cells": [
+                  "12",
+                  "02",
+                  "1988",
+                  "lifestyle1286@gmail.com",
+                  "Igateseetha@0",
+                  "TW18 2DZ",
+                  "Female"
+                ],
+                "line": 17
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Comment BBC News articles Feature",
+    "description": "",
+    "id": "comment-bbc-news-articles-feature",
+    "keyword": "Feature",
+    "uri": "src/main/java/com/bbc/features/RegisterBBC.feature"
+  }
+]

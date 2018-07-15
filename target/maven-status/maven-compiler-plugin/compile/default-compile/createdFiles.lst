@@ -1,0 +1,16 @@
+com\bbc\pageobjects\RegisterPageObject.class
+com\bbc\helper\WaitHelper.class
+com\bbc\reports\TestReporter.class
+com\bbc\base\TestBase.class
+com\bbc\pageobjects\CommentsPageObject.class
+com\bbc\helper\WaitHelper$5.class
+com\bbc\helper\WaitHelper$2.class
+com\bbc\helper\WaitHelper$1.class
+com\bbc\util\WebEventListener.class
+com\bbc\helper\WaitHelper$3.class
+com\bbc\helper\XpathHelper.class
+com\bbc\pageobjects\SignInPageObject.class
+com\bbc\util\CommonConstants.class
+com\bbc\util\CommonUtility.class
+com\bbc\helper\JavascriptHelper.class
+com\bbc\helper\WaitHelper$4.class
